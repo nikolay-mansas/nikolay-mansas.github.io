@@ -1,0 +1,178 @@
+.info-block {
+  border-radius: 10px;
+}
+.lab {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.info {
+  background-color: #f9f9ff;
+  padding: 10px 25px;
+}
+
+.info__switch {
+  display: none;
+}
+
+.info__body {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.info__switch:checked~.info__body {
+  max-height: 1000px;
+}
+
+.info__headline::before {
+  content: "";
+  position: absolute;
+  left: -18px;
+  top: 4px;
+  border: 6px solid #39739d;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+
+.info__switch:checked~.info__headline::before {
+  transform: rotate(180deg) translateY(6px);
+}
+
+.info__headline {
+  display: block;
+  position: relative;
+  margin-bottom: 15px;
+  user-select: none;
+  color: #39739d;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.info__headline:hover {
+  text-decoration: underline;
+}
+
+
+table {
+  border-collapse: collapse;
+  /*убираем пустые промежутки между ячейками*/
+  border: 1px solid grey;
+  /*устанавливаем для таблицы внешнюю границу серого цвета толщиной 1px*/
+}
+th {
+  border: 1px solid grey;
+}
+td {
+  border: 1px solid grey;
+}
+.hr-line {
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid #333;
+}
+h1 {
+  color: rgb(0, 2, 92);
+}
+.info-block {
+  background-color: #ffffff;
+  -moz-box-shadow: 0 2px 4px rgba(50,50,93,.1);
+  -webkit-box-shadow: 0 2px 4px rgba(50,50,93,.1);
+  box-shadow: 0 2px 4px rgba(50,50,93,.1);
+}
+body {
+  background-color: #0a9dff50;
+}
+.text-blue {
+    color: #00bfd8 !important;
+  }
+  
+  .text-bblack {
+    color: #393939 !important;
+  }
+  
+  .rotating-card-container .card .back:after, .rotating-card-container .card .front:after {
+      background-image: linear-gradient(195deg, #00A2E8, #0085BF);
+  }
+  
+  .text-gradient.text-primary {
+      background-image: linear-gradient(195deg, #00A2E8, #00ABF6);
+  }
+  
+  .bg-gradient-white {
+      background-image: linear-gradient( 
+  309deg
+   , #ffffff 0%, #0ca0e3 100%);
+   color: white;
+  }
+  
+  .bg-gradient-white2 {
+      background-image: linear-gradient( 
+  309deg
+   , #056f99 0%, #0ca0e3 100%);
+  }
+  
+  .h1-min {
+    font-size: 34px;
+  }
+  
+  .fa-stack .fa-stack-1x {
+      color: #fff;
+      transition: all 0.2s ease;
+      font-size: 24px;
+      line-height: 40px;
+  }
+  
+  .fa-stack .fa-stack-2x {
+      color: #00bfd8;
+      transition: all 0.2s ease;
+      font-size: 40px;
+  }
+  
+  pre code {
+    font-size: 12px;
+    line-height: 10px !important;
+  }
+  
+  
+  /* Min-width width 1200px */
+  @media (min-width: 1200px) {
+  
+  .youtube_frame {width: 560px;}
+  
+  }
+  
+  @media (max-width: 575.98px) {
+  
+    .top-row {
+      margin-top: 84px;
+    }
+    
+    .text-blue {
+    text-shadow: 1px 1px 2px black, 0px 0 1em white;
+    }
+  
+    .mob_margin {
+      margin-top: 40px;  
+    }
+    
+  .navbar .navbar-brand {
+      font-size: 11px;
+  }  
+    
+  }
+  
